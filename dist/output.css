@@ -702,8 +702,8 @@ video {
   margin-right: auto;
 }
 
-.mb-10 {
-  margin-bottom: 2.5rem;
+.mr-32 {
+  margin-right: 8rem;
 }
 
 .mt-2 {
@@ -802,8 +802,12 @@ video {
   display: none;
 }
 
-.w-full {
-  width: 100%;
+.w-8\/12 {
+  width: 66.666667%;
+}
+
+.w-6\/12 {
+  width: 50%;
 }
 
 .flex-shrink {
@@ -1571,10 +1575,6 @@ video {
   word-break: keep-all;
 }
 
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-
 .rounded {
   border-radius: 0.25rem;
 }
@@ -1667,6 +1667,11 @@ video {
 
 .border-none {
   border-style: none;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
@@ -1784,19 +1789,63 @@ video {
      object-fit: scale-down;
 }
 
-.object-center {
-  -o-object-position: center;
-     object-position: center;
-}
-
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .py-24 {
   padding-top: 6rem;
   padding-bottom: 6rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-32 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .text-left {
@@ -2258,6 +2307,10 @@ video {
   content: var(--tw-content);
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 .hover\:font-bold:hover {
   font-weight: 700;
 }
@@ -2320,13 +2373,23 @@ video {
   }
 }
 
-@media (min-width: 1024px) {
-  .lg\:mb-0 {
-    margin-bottom: 0px;
+@media (min-width: 768px) {
+  .md\:mr-32 {
+    margin-right: 8rem;
   }
 
-  .lg\:w-1\/2 {
-    width: 50%;
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .md\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 }
 
